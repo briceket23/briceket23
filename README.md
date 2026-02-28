@@ -1,7 +1,3 @@
-Here is a streamlined, resume-style GitHub profile that captures the breadth of your research and skills without getting bogged down in too many granular details.
-
----
-
 # Cyrille Brice FOMAZOU TCHINDA
 **Machine Learning Researcher | Medical Image Analysis | AI for Global Health**
 📧 fomazoutchinda@gmail.com 
