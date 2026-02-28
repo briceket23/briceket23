@@ -25,9 +25,3 @@ Machine Learning Researcher specializing in medical image analysis and self-supe
 * *Cross-Dataset Generalization:* Demonstrated superior zero-shot generalization on the external BBBC041 dataset (AUC = 0.777) by optimizing fine-tuning protocols.
 * *Clinical Reliability:* Implemented temperature scaling to improve probability calibration, reducing expected calibration error to below 0.05 for trustworthy clinical uncertainty estimates.
 * *Deployment Efficiency:* Verified that the complete inference pipeline operates efficiently on standard clinical computing infrastructure, achieving speeds of 100+ images per second on CPU-only systems.
-
-
-
----
-
-Would you like me to format this directly into Markdown code so you can copy and paste it straight into your GitHub `README.md` file?
