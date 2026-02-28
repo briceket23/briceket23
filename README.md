@@ -1,80 +1,70 @@
-👋 Hi, I'm Cyrille Brice FOMAZOU TCHINDA
-AI Researcher focused on making medical AI accessible in resource-limited settings.
-I work at the intersection of self-supervised learning, medical image analysis, and clinical deployment.
+Here is a professional GitHub profile (`README.md` style) tailored to your expertise and research accomplishments derived from the provided document.
 
-📍 Littoral, Cameroon · fomazoutchinda@gmail.com
-🔗 LinkedIn · Google Scholar · Twitter
+---
 
-🔬 About Me
-I'm a researcher at the Laboratory of Methods, National Higher Polytechnic School of Douala (University of Douala). My work aims to break the annotation bottleneck in AI‑assisted malaria diagnosis, enabling robust models that can be deployed where expert microscopists are scarce.
+# Hi there, I'm Cyrille Brice FOMAZOU TCHINDA! 
 
-Research interests: Self‑supervised learning, medical imaging, interpretability, label efficiency, and global health AI.
+👋 
 
-Current focus: Developing domain‑aware SSL frameworks that generalise across diverse microscopy protocols with minimal labelled data.
+**Machine Learning Researcher | Medical Image Analysis | AI for Global Health**
 
-Collaboration: I actively work with clinicians and public health experts to ensure our methods translate into real‑world impact.
+I am a researcher affiliated with the Laboratory of Methods at the National Higher Polytechnic School of Douala, University of Douala, Cameroon. My work focuses on democratizing AI-assisted medical diagnosis in resource-limited settings by overcoming the critical bottleneck of expert data annotation.
 
-📄 Featured Publication
-Domain‑Aware Self‑Supervised Learning for Cell‑Level Malaria Classification: Label Efficiency, Cross‑Dataset Generalization, and Clinical Interpretability
-C.B. Fomazou Tchinda, D. Essola, F. Offole, A.B. Azangue, A. Essomba, F.A. Onana Akoa
-📄 Paper (arXiv / Springer) · 💻 Code (placeholder) · 📊 Dataset
+### 🔬 About Me
 
-Key contributions:
+* **Current Focus:** Developing Domain-Aware Self-Supervised Learning (SSL) pipelines to improve label efficiency, cross-dataset generalization, and clinical interpretability in medical imaging.
 
-✅ 90% reduction in annotation burden – 96.3% accuracy using only 10% labelled data (SimCLR‑based SSL).
 
-✅ Superior cross‑dataset generalisation – optimal zero‑shot AUC (0.777) achieved with models trained on only 10% of the source data.
+* **Mission:** Building computationally efficient, trustworthy AI diagnostic tools that can be realistically deployed on standard clinical infrastructure in malaria-endemic regions.
 
-✅ Comprehensive interpretability benchmark – Gradient‑SHAP identified as the best trade‑off for clinical deployment (0.15s per image, CPU‑compatible).
 
-✅ Clinical readiness – temperature‑calibrated probabilities, error analysis, and computational efficiency validated for resource‑constrained settings.
+* **Research Highlights:** I recently developed an enhanced SimCLR-based framework with margin-augmented NT-Xent loss and hard negative mining, designed specifically for cell-level malaria classification.
 
-🛠️ Tech Stack
-Languages & Frameworks
-https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white
-https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white
-https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white
-https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white
-https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white
+---
 
-Libraries & Tools
-https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white
-https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white
-https://img.shields.io/badge/Matplotlib-11557c?style=flat&logo=python&logoColor=white
-https://img.shields.io/badge/W&B-FFBE00?style=flat&logo=weightsandbiases&logoColor=black
-https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white
+### 💻 Tech Stack & Tools
 
-Specialities
-Self‑supervised learning (SimCLR, BYOL, MoCo) · Medical image analysis · Model interpretability (SHAP, Grad‑CAM) · Low‑resource deployment
+* **Languages & Frameworks:** Python (3.8+), PyTorch (1.12+), CUDA (11.7+) 
 
-🚀 Selected Projects
-🔬 Malaria Cell Classification with Self‑Supervised Learning
-PyTorch, SimCLR, OpenCV, SHAP
-A complete pipeline for cell‑level malaria diagnosis that reduces annotation needs by 90%. Includes domain‑aware augmentations, margin‑augmented contrastive loss, and a full interpretability benchmark.
-➡️ Repository (coming soon)
 
-📊 Interpretability Benchmark for Medical Imaging
-Captum, LIME, Grad‑CAM
-Systematic evaluation of 8 attribution methods on malaria microscopy images, measuring computational cost, stability, and morphological alignment.
-➡️ Repository
+* **Machine Learning:** Self-Supervised Learning (SimCLR), Deep Learning (ResNet-18, CNNs, MLPs), Transfer Learning 
 
-🌍 Cross‑Dataset Generalisation in Medical AI
-PyTorch, BBBC041
-Analysis of how training data quantity affects out‑of‑domain performance – revealing that moderate fine‑tuning (10‑25% data) yields the most robust models.
-➡️ Repository
 
-📈 GitHub Stats
-https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical
-https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical
+* **Explainable AI (XAI):** Gradient SHAP, Integrated Gradients, Guided Backpropagation, Guided Grad-CAM 
 
-🤝 Let's Connect
-I'm always open to collaborations at the intersection of AI and global health, especially projects that aim to democratise medical diagnostics.
 
-📧 Email: fomazoutchinda@gmail.com
+* **Infrastructure:** High-Performance Computing (HPC), NVIDIA GPUs, Automatic Mixed Precision (AMP) 
 
-💼 LinkedIn: linkedin.com/in/cyrille-fomazou
 
-🐦 Twitter: @CyrilleFomazou
 
-🎓 Google Scholar: Cyrille Fomazou
+---
+### 🌟 Featured Research & Projects
 
+**Domain-Aware SSL for Malaria Classification** 
+
+An evidence-based AI pipeline addressing the annotation scarcity in single-cell malaria classification.
+
+* **Label Efficiency:** Achieved **96.3% accuracy** using only **10% labeled data**, representing a 90% reduction in expert annotation burden while maintaining clinically acceptable performance.
+
+
+* **Robust Generalization:** Demonstrated optimal cross-dataset zero-shot generalization (AUC = 0.777) on external datasets (BBBC041) through targeted, moderate fine-tuning.
+
+
+* **Clinical Interpretability:** Systematically benchmarked 8 attribution methods, identifying **Gradient SHAP** as the optimal algorithm for clinical deployment due to its high computational efficiency (0.15s/image) and low memory overhead.
+
+
+* **Domain-Specific Augmentation:** Designed biologically-motivated image augmentations (simulated focus variations, illumination correction, controlled color perturbations) to preserve critical cellular morphology.
+
+
+
+---
+
+### 📬 Let's Connect
+
+* **Email:** fomazoutchinda@gmail.com 
+
+
+
+---
+
+Would you like me to help you draft a repository structure (`folder layout` and `requirements.txt`) to host the code for your SimCLR malaria classification project?
